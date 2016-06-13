@@ -1,10 +1,11 @@
 # domino-wizard
-Create Domino Cards for vocabulary review classes with simple to use [wizard]
-wizard](http://monolithpl.github.io/domino-wizard/)
+Create Domino Cards for vocabulary review classes with simple to use [wizard](http://monolithpl.github.io/domino-wizard/)
 
 ### features
+- automatically creates ready-to-print domino cards from list of words
+- contextualized: dominoes are made with complete sentences, not just single words
 - perfect for recycling vocabulary in ESL classrooms
-- tiny code / no external dependencies
+- tiny code / no external dependencies (vanilla javascript)
 - elegant, responsive layout
 
 ### screenshot / example
