@@ -68,6 +68,10 @@ function getExamples(word, totalExamples) {
 	}
 	req.send()
 }
+function makeCards (word){
+	document.getElementById('instructions').innerHTML = ''
+	getExamples(word,1)
+}
 demo.addEventListener("click", function(event) {
 	document.getElementById('instructions').innerHTML = ''
 	completedExamples = 0
@@ -89,7 +93,7 @@ newWord.addEventListener("keypress", function(event) {
 		entry.innerHTML = '<label>' + newWord.value + '</label><button class="destroy"></button>'
 		list.insertBefore(entry, list.childNodes[0])
 		wordArray.push(newWord.value)
-		
+		makeCards(newWord.value)
 		newWord.value = ''
 		updateCount()
 	}
