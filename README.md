@@ -1,5 +1,5 @@
 # domino-wizard
-Create Domino Cards for vocabulary review classes with simple to use [wizard](http://monolithpl.github.io/domino-wizard/)
+Create Domino Cards for vocabulary review classes with simple to use [wizard](http://monolithpl.github.io/dominoes/)
 
 ### features
 - automatically creates ready-to-print domino cards from list of words
@@ -9,10 +9,10 @@ Create Domino Cards for vocabulary review classes with simple to use [wizard](ht
 - elegant, responsive layout
 
 ### screenshot / example
-![screenshot](http://monolithpl.github.io/domino-wizard/dominoes.png "screenshot")
+![screenshot](http://monolithpl.github.io/dominoes/dominoes.png "screenshot")
 
 ### demo
-[check it out here](http://monolithpl.github.io/domino-wizard/)
+[check it out here](http://monolithpl.github.io/dominoes/)
 
 ### further reading
 Read up on the usefulness of collocation activities with dominoes in EFL classrooms here:
