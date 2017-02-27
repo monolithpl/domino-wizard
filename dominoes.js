@@ -36,7 +36,7 @@ var startExamples = []
 var endExamples = []
 function getExamples(word, totalExamples) {
 	var req = new XMLHttpRequest()
-	req.open('GET', 'https://vocab.today/sentence.php/' + word, true)
+	req.open('GET', 'https://vocab.today/proxy.php?csurl=https://vocab.today/sentence.php/' + word, true)
 	req.onload = function () {
 		sentences = JSON.parse(req.responseText)
 		if (sentences[0]) {
